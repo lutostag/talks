@@ -1,3 +1,10 @@
 #!/bin/bash
+
+# Rise for presentations
 pip install RISE
 jupyter-nbextension install rise --py --sys-prefix
+
+
+# javascript jupyter kernel
+npm install -g ijavascript
+ijsinstall
