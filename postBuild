@@ -4,7 +4,10 @@
 pip install RISE
 jupyter-nbextension install rise --py --sys-prefix
 
-
 # javascript jupyter kernel
 npm install -g ijavascript
 ijsinstall
+
+# bash kernel
+pip install bash_kernel
+python -m bash_kernel.install
