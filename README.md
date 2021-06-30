@@ -12,8 +12,10 @@ To have interactive sessions you can use the [interactive link from mybinder.org
 If you have docker installed, you can get the exact versions I use with the [jupyter repo2docker tool](https://repo2docker.readthedocs.io)
 To install and run simply:
 ```console
+$ python3 -m venv .venv
+$ source .venv/bin/activate
 $ python3 -m pip install jupyter-repo2docker
-$ jupyter repo2docker .
+$ jupyter-repo2docker -v .:. .
 ```
 
 ## License
